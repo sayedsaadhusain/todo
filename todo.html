@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Today's tasks <span><img style="height: 45px; width: 45px; position: relative;top: 6px;" src="task.png" alt=""></span></h1>
+        <div>
+            <ul id="list-item">
+            </ul>
+        </div>
+        <div class="footer">
+            <input onkeypress="pushItem(event)" id="input" type="text" placeholder="write your task"><span><button onclick=add_item()>+</button></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
